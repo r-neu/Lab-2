@@ -34,7 +34,9 @@ int main() {
     // Print student details
     for (int i = 0; i < 3; i++) {
         printf("Name: %s\n", students[i].name);
+
         printf("Grades: %d, %d, %d\n", students[i].grades[0], students[i].grades[1], students[i].grades[2]);
+
         printf("Average: %.2f\n\n", students[i].average);
     }
 
